@@ -480,7 +480,7 @@ if (window.visualViewport) {
 /*************************************************
  * ADMIN (quem pode liberar PRO)
  *************************************************/
-const ADMIN_EMAILS = ["admobjetiva@adm.com"];
+const ADMIN_EMAILS = ["admfoch@adm.com"];
 function isAdmin() { const e = getUserEmail(); return !!e && ADMIN_EMAILS.includes(e); }
 
 /*************************************************
